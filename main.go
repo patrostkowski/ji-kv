@@ -7,6 +7,8 @@ import (
 )
 
 func main() {
+	log.Println("start")
 	httpApi := api.NewServer("0.0.0.0:9991")
 	log.Fatal(httpApi.Start())
+
 }
